@@ -1,0 +1,62 @@
+body{
+    padding: 0;
+    margin: 0;
+    background:url(anim.gif) no-repeat;
+    background-size: 100%;
+}
+
+.container{
+    height: 100vh;
+    width: 200vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    
+}
+.image{
+   
+    height: 200px;
+    width: 200px;
+    background : url(logovsc.png);
+    background-size:100% ;
+    background-position: center;
+    transition: 1s;
+    border-radius: 10px;
+}
+
+.image:hover{
+    background-size: 150%;
+    background-position: center;
+}
+.image2{
+    height: 200px;
+    width: 200px;
+    background : url(Sb.png);
+    background-size:100% ;
+    background-position: center;
+    transition: 1s;
+    border-radius: 10px;
+    
+}
+
+.image2:hover{
+    background-size: 150%;
+    background-position: center;
+}
+
+.image3{
+    height: 200px;
+    width: 200px;
+    background : url(np.png);
+    background-size:100% ;
+    background-position: center;
+    transition: 1s;
+    border-radius: 10px;
+    
+}
+
+.image3:hover{
+    background-size: 150%;
+    background-position: center;
+}
